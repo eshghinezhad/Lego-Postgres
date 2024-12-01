@@ -11,8 +11,8 @@ class LegoData {
     Set;
     Theme;
     constructor() {
-        this.sequelize = new Sequelize('seneca_webdb', 'seneca_webdb_owner', 'seLC7IWub9py', {
-            host: 'ep-late-wave-a5k28qh2-pooler.us-east-2.aws.neon.tech',
+        this.sequelize = new Sequelize(process.env.PGDATABASE, process.env.PGUSER, process.env.PGPASSWORD, {
+            host: process.env.PGHOST,
             dialect: 'postgres',
             port: 5432,
             dialectOptions: {

@@ -30,16 +30,14 @@
                         <p class="lead text-muted"> Below, you will find detailed information about the set: <%= set.name %> </p>
                     </div>
                 </section>
-					 <br />
+					      <br />
                 <img class="img-fluid rounded w-100 mb-3" src=<%= set.img_url %> alt="Set Image" />
-                    
-         
                       <p>
                         <span ><strong>Set Name: </strong></span> <%= set.name %> <br />
                         <span ><strong>Year Released: </strong></span> <%= set.year %> <br />
                         <span ><strong>Theme: </strong></span> <%= set.Theme.name %> <br />
                         <span ><strong>Number of Parts: </strong></span> <%= set.num_parts %> <br /><br />
-                  <span id="quote"></span><br /><br />
+                        <span id="quote"></span><br /><br />
                         
                         <a class="btn btn-danger btn-sm mb-2" href="/lego/deleteSet/<%= set.set_num %>">
                           DELETE SET: <%= set.name %>
@@ -48,11 +46,6 @@
                           RETURN
                         </a>
                       </p>
-                      <p>
-                        <strong>Random Quote:</strong>
-                        <span id="quote">Loading...</span>
-                    </p>
-
 			</main>
 		</div>
 	</div>
