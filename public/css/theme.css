@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal&family=Satisfy&display=swap');
+
+.text-center {
+   font-family: "Satisfy", cursive;
+   border-radius: 20px 20px 20px 20px;
+   -moz-border-radius: 20px 20px 20px 20px;
+} 
+.bg-light{
+   background: linear-gradient(to right, #6483a0, #b6bace);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+.fw-bold{
+   font-size: 60px;
+}
+.nav-link {
+   color: #09235c; 
+   font-weight: 500;
+   font-size: 1.2rem;
+}
+.nav-link:hover {
+   color: #864801 ; 
+   text-decoration: underline;
+}
+.navbar-light .navbar-brand {
+   font-family: "Lobster", sans-serif;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+body, html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   background: linear-gradient(to right, #dcdce9, #7b95b8);
+   color: #181717;
+   font-family: "Lora", serif;
+}
+a {
+   color: #01376d;
+   text-decoration:none;
+}
+a:hover {
+   color: #924803; 
+   text-decoration: underline;
+}
+h1{
+   text-shadow: 2px 2px 4px rgb(255, 255, 255);
+   color: #1d1581;
+}
+h2, h3 {
+   color: #072058;
+   text-shadow: 2px 2px 4px rgb(255, 255, 255);
+   text-decoration: underline;
+   text-align: center;
+   font-weight: 500;
+}
+
+/* Table */
+.tables {
+   color: #0a0a0a;
+   width: 80%;
+   margin: 20px auto;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.tables tr:nth-child(odd) td {
+   background-color: #dce6f7; 
+}
+.tables th, td {
+   font-size: 16px;
+   padding: 12px;
+   border: 2px solid #0a0a0a;
+}
+.tables th {
+   background-color: #14336b;
+   color: white;
+}
+.table-data tr:nth-child(even) td {
+   background-color: #88a0be;
+   border-color :rgba(255, 255, 255, 0);
+
+}
+.table-data tr:nth-child(odd) td {
+   border-color :rgba(255, 255, 255, 0)
+}
+.table-data {
+   width: 100%;
+  
+}
+/* ------ */
+.content p {
+   font-family: "Lora", serif;
+   font-size: 18px;
+   line-height:1.8em;
+   width: 80%;
+   margin: 20px auto;
+   text-align: justify;
+   /* text-indent: 20px; */
+}
+.text-muted{
+   font-family: "Metal", serif;
+   font-size: 26px;
+   font-weight: bold;  
+}
+
+/* List  */
+.list ul,.list ol { 
+   font-family: "Lora", serif;
+   font-size: 16px;
+   width: 80%;
+   margin: 10px auto;
+   padding-left: 30px;
+   color: #201f1f;
+}
+.list li {
+   margin: 6px 0;
+   line-height:1.6em;
+}
+
+img {
+   display: block;
+   margin: 30px auto;
+   background-color: #b6bace;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+audio, video {
+   display: block;
+   margin: 20px auto; 
+}
